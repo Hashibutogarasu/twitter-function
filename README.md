@@ -5,7 +5,7 @@ twitter-for-CUIの関数版
 import twitter_functionでインポート可能。
 長いのでimport twitter_function as twなどにするとよき。
 
-##リファレンス:
+<h1>リファレンス:</h1>
 
 timeline(api,count=20,limits_output=False)
 
