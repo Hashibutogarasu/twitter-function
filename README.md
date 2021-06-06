@@ -12,7 +12,9 @@ timeline(api,count=20,limits_output=False)
 api:必須
 
 auth = tweepy.OAuthHandler(ck, cs)
+
 auth.set_access_token(at, ats)
+
 api = tweepy.API(auth)
 
 count:タイムラインの取得件数
